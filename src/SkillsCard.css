@@ -1,0 +1,14 @@
+.SkillsCard {
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.SkillsCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+
